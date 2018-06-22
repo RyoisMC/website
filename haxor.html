@@ -1,0 +1,1646 @@
+<!-- https://github.com/Tyrrrz/DiscordChatExporter -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Direct Messages - EliteHacker</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+<style>body {
+    background-color: #36393E;
+    color: rgba(255, 255, 255, 0.7);
+    font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+}
+
+a {
+    color: #0096CF;
+    text-decoration: none;
+}
+
+a:hover {
+     text-decoration: underline;
+}
+
+div.pre {
+    background-color: #2F3136;
+    color: rgb(131, 148, 150);
+    font-family: Consolas, Courier New, Courier, Monospace;
+    margin-top: 4px;
+    padding: 8px;
+    white-space: pre-wrap;
+}
+
+span.pre {
+    background-color: #2F3136;
+    font-family: Consolas, Courier New, Courier, Monospace;
+    padding-left: 2px;
+    padding-right: 2px;
+    white-space: pre-wrap;
+}
+
+div#info {
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    max-width: 100%;
+}
+
+div#log {
+     max-width: 100%;
+}
+
+img.guild-icon {
+    max-height: 64px;
+    max-width: 64px;
+}
+
+div.info-right {
+    flex: 1;
+    margin-left: 10px;
+}
+
+div.guild-name {
+    color: #FFFFFF;
+    font-size: 1.4em;
+}
+
+div.channel-name {
+    color: #FFFFFF;
+    font-size: 1.2em;
+}
+
+div.channel-topic {
+    margin-top: 2px;
+    color: #FFFFFF;
+}
+
+div.channel-messagecount {
+    margin-top: 2px;
+}
+
+div.msg {
+    border-top: 1px solid rgba(255, 255, 255, 0.04);
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+div.msg-left {
+    height: 40px;
+    width: 40px;
+}
+
+img.msg-avatar {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+
+div.msg-right {
+    flex: 1;
+    margin-left: 20px;
+    min-width: 50%;
+}
+
+span.msg-user {
+    color: #FFFFFF;
+    font-size: 1em;
+}
+
+span.msg-date {
+    color: rgba(255, 255, 255, 0.2);
+    font-size: .75em;
+    margin-left: 5px;
+}
+
+span.msg-edited {
+    color: rgba(255, 255, 255, 0.2);
+    font-size: .8em;
+    margin-left: 5px;
+}
+
+div.msg-content {
+    font-size: .9375em;
+    padding-top: 5px;
+    word-wrap: break-word;
+}
+
+div.msg-attachment {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+img.msg-attachment {
+    max-height: 500px;
+    max-width: 50%;
+}
+
+img.emoji {
+    height: 24px;
+    width: 24px;
+    vertical-align: -.4em;
+}
+
+span.mention {
+    font-weight: 600;
+}</style>
+</head>
+<body>
+<div id="info">
+<div class="info-left">
+<img class="guild-icon" src="https://cdn.discordapp.com/embed/avatars/0.png" />
+</div>
+<div class="info-right">
+<div class="guild-name">Direct Messages</div>
+<div class="channel-name">EliteHacker</div>
+<div class="channel-topic"></div>
+<div class="channel-messagecount">244 messages</div>
+</div>
+</div>
+<div id="log">
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/93723291256111104/e9081379790878352340944445c3b709.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Rouing#1337">Rouing</span>
+<span class="msg-date">21-Jun-18 11:32 PM</span>
+<div class="msg-content">
+Yes</div>
+<div class="msg-content">
+What do you want</div>
+<div class="msg-content">
+if anything...</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/214458662985531393/3e1eb5f5b4da0abf9c17b237a3b21048.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="EliteHacker#3619">EliteHacker</span>
+<span class="msg-date">21-Jun-18 11:35 PM</span>
+<div class="msg-content">
+your paranoid and thats all i want to say</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/93723291256111104/e9081379790878352340944445c3b709.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Rouing#1337">Rouing</span>
+<span class="msg-date">21-Jun-18 11:36 PM</span>
+<div class="msg-content">
+Uh huh</div>
+<div class="msg-content">
+I think the real word is &quot;Tired&quot;<span class="msg-edited" title="21-Jun-18 11:36 PM">(edited)</span></div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/214458662985531393/3e1eb5f5b4da0abf9c17b237a3b21048.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="EliteHacker#3619">EliteHacker</span>
+<span class="msg-date">21-Jun-18 11:36 PM</span>
+<div class="msg-content">
+im checking your logs right now and you have banned around 6 people already from your discord server</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/93723291256111104/e9081379790878352340944445c3b709.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Rouing#1337">Rouing</span>
+<span class="msg-date">21-Jun-18 11:36 PM</span>
+<div class="msg-attachment">
+<a href="https://cdn.discordapp.com/attachments/459573428739899412/459577518798667777/unknown.png">
+<img class="msg-attachment" src="https://cdn.discordapp.com/attachments/459573428739899412/459577518798667777/unknown.png" />
+</a>
+</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/214458662985531393/3e1eb5f5b4da0abf9c17b237a3b21048.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="EliteHacker#3619">EliteHacker</span>
+<span class="msg-date">21-Jun-18 11:37 PM</span>
+<div class="msg-content">
+in the last couple of hours</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/93723291256111104/e9081379790878352340944445c3b709.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Rouing#1337">Rouing</span>
+<span class="msg-date">21-Jun-18 11:37 PM</span>
+<div class="msg-content">
+I figured this</div>
+<div class="msg-content">
+Ive banned alot yes</div>
+<div class="msg-content">
+Alot of alts</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/214458662985531393/3e1eb5f5b4da0abf9c17b237a3b21048.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="EliteHacker#3619">EliteHacker</span>
+<span class="msg-date">21-Jun-18 11:37 PM</span>
+<div class="msg-content">
+minionman55 is not an alt</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/93723291256111104/e9081379790878352340944445c3b709.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Rouing#1337">Rouing</span>
+<span class="msg-date">21-Jun-18 11:37 PM</span>
+<div class="msg-content">
+No he isnt</div>
+<div class="msg-content">
+But he is involved with you</div>
+<div class="msg-content">
+Now my question to you is</div>
+<div class="msg-content">
+why do you care?</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/214458662985531393/3e1eb5f5b4da0abf9c17b237a3b21048.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="EliteHacker#3619">EliteHacker</span>
+<span class="msg-date">21-Jun-18 11:38 PM</span>
+<div class="msg-content">
+all those people you banned arent alts and only 3 people were involved including myself, minionman55 and FBI</div>
+<div class="msg-content">
+1 tip you should nether have a website with weak security</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/93723291256111104/e9081379790878352340944445c3b709.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Rouing#1337">Rouing</span>
+<span class="msg-date">21-Jun-18 11:38 PM</span>
+<div class="msg-content">
+Hmm</div>
+<div class="msg-content">
+I didnt realize an open source static webpage has any security</div>
+<div class="msg-content">
+that runs off GitLab pages...</div>
+<div class="msg-content">
+Are you retarded?</div>
+<div class="msg-content">
+What is your end game?</div>
+<div class="msg-content">
+Intimidation?</div>
+<div class="msg-content">
+Trying to black mail me?</div>
+<div class="msg-content">
+Are you bored?</div>
+<div class="msg-content">
+<a href="https://gitlab.com/summerclub/Hosts">https://gitlab.com/summerclub/Hosts</a></div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/214458662985531393/3e1eb5f5b4da0abf9c17b237a3b21048.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="EliteHacker#3619">EliteHacker</span>
+<span class="msg-date">21-Jun-18 11:39 PM</span>
+<div class="msg-content">
+no im not retarted your just a bully who made a CEO of a company mentally ill</div>
+<div class="msg-content">
+and lots of others you made mentally ill</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/93723291256111104/e9081379790878352340944445c3b709.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Rouing#1337">Rouing</span>
+<span class="msg-date">21-Jun-18 11:40 PM</span>
+<div class="msg-content">
+What Company?</div>
+<div class="msg-content">
+Who are you involved with</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/214458662985531393/3e1eb5f5b4da0abf9c17b237a3b21048.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="EliteHacker#3619">EliteHacker</span>
+<span class="msg-date">21-Jun-18 11:40 PM</span>
+<div class="msg-content">
+all the ones you put in the lists on your website</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/93723291256111104/e9081379790878352340944445c3b709.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Rouing#1337">Rouing</span>
+<span class="msg-date">21-Jun-18 11:40 PM</span>
+<div class="msg-content">
+Uh huh</div>
+<div class="msg-content">
+So the shit hosts</div>
+<div class="msg-content">
+Which I have no care for</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/214458662985531393/3e1eb5f5b4da0abf9c17b237a3b21048.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="EliteHacker#3619">EliteHacker</span>
+<span class="msg-date">21-Jun-18 11:40 PM</span>
+<div class="msg-content">
+im the leader u idiot</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/93723291256111104/e9081379790878352340944445c3b709.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Rouing#1337">Rouing</span>
+<span class="msg-date">21-Jun-18 11:40 PM</span>
+<div class="msg-content">
+What leader</div>
+<div class="msg-content">
+of who</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/214458662985531393/3e1eb5f5b4da0abf9c17b237a3b21048.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="EliteHacker#3619">EliteHacker</span>
+<span class="msg-date">21-Jun-18 11:41 PM</span>
+<div class="msg-content">
+im the leader of stopping criminals</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/93723291256111104/e9081379790878352340944445c3b709.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Rouing#1337">Rouing</span>
+<span class="msg-date">21-Jun-18 11:41 PM</span>
+<div class="msg-content">
+Now this is a meme</div>
+<div class="msg-content">
+Holy shit</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/214458662985531393/3e1eb5f5b4da0abf9c17b237a3b21048.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="EliteHacker#3619">EliteHacker</span>
+<span class="msg-date">21-Jun-18 11:41 PM</span>
+<div class="msg-content">
+its not a meme when your on bbc &#128521;</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/93723291256111104/e9081379790878352340944445c3b709.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Rouing#1337">Rouing</span>
+<span class="msg-date">21-Jun-18 11:41 PM</span>
+<div class="msg-content">
+You mean that TV Channel in the UK?</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/214458662985531393/3e1eb5f5b4da0abf9c17b237a3b21048.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="EliteHacker#3619">EliteHacker</span>
+<span class="msg-date">21-Jun-18 11:41 PM</span>
+<div class="msg-content">
+oh yes loads of people will be seeing it</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/93723291256111104/e9081379790878352340944445c3b709.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Rouing#1337">Rouing</span>
+<span class="msg-date">21-Jun-18 11:42 PM</span>
+<div class="msg-content">
+Uh huh</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/214458662985531393/3e1eb5f5b4da0abf9c17b237a3b21048.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="EliteHacker#3619">EliteHacker</span>
+<span class="msg-date">21-Jun-18 11:42 PM</span>
+<div class="msg-content">
+you dont even know what we have on you</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/93723291256111104/e9081379790878352340944445c3b709.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Rouing#1337">Rouing</span>
+<span class="msg-date">21-Jun-18 11:42 PM</span>
+<div class="msg-content">
+Nothing?</div>
+<div class="msg-content">
+Lol</div>
+<div class="msg-content">
+There is nothing to have on me</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/214458662985531393/3e1eb5f5b4da0abf9c17b237a3b21048.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="EliteHacker#3619">EliteHacker</span>
+<span class="msg-date">21-Jun-18 11:42 PM</span>
+<div class="msg-content">
+we have a whole lot of shit on you</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/93723291256111104/e9081379790878352340944445c3b709.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Rouing#1337">Rouing</span>
+<span class="msg-date">21-Jun-18 11:42 PM</span>
+<div class="msg-content">
+I am an open book</div>
+<div class="msg-content">
+I live in Texas</div>
+<div class="msg-content">
+and I have a criminal record</div>
+<div class="msg-content">
+whoop</div>
+<div class="msg-content">
+te</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/214458662985531393/3e1eb5f5b4da0abf9c17b237a3b21048.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="EliteHacker#3619">EliteHacker</span>
+<span class="msg-date">21-Jun-18 11:42 PM</span>
+<div class="msg-content">
+your not an open book</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/93723291256111104/e9081379790878352340944445c3b709.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Rouing#1337">Rouing</span>
+<span class="msg-date">21-Jun-18 11:42 PM</span>
+<div class="msg-content">
+do</div>
+<div class="msg-content">
+you&#39;re</div>
+<div class="msg-content">
+Ok here is my assumption</div>
+<div class="msg-content">
+You are between 13-16</div>
+<div class="msg-content">
+Bored</div>
+<div class="msg-content">
+So you are trying to have a jib at intimidating me (very badly)</div>
+<div class="msg-content">
+And have no idea what you are talking about</div>
+<div class="msg-content">
+your name is literally &quot;ElliteHacker&quot;</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/214458662985531393/3e1eb5f5b4da0abf9c17b237a3b21048.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="EliteHacker#3619">EliteHacker</span>
+<span class="msg-date">21-Jun-18 11:43 PM</span>
+<div class="msg-content">
+i can put you in a very bad place with what i have on you</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/93723291256111104/e9081379790878352340944445c3b709.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Rouing#1337">Rouing</span>
+<span class="msg-date">21-Jun-18 11:43 PM</span>
+<div class="msg-content">
+any any &quot;Hacker&quot; who is a real blackhat does these things on a much more low key scale...</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/214458662985531393/3e1eb5f5b4da0abf9c17b237a3b21048.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="EliteHacker#3619">EliteHacker</span>
+<span class="msg-date">21-Jun-18 11:44 PM</span>
+<div class="msg-content">
+im not a blackhat though im a white hat</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/93723291256111104/e9081379790878352340944445c3b709.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Rouing#1337">Rouing</span>
+<span class="msg-date">21-Jun-18 11:44 PM</span>
+<div class="msg-content">
+You are going to do nothing</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/214458662985531393/3e1eb5f5b4da0abf9c17b237a3b21048.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="EliteHacker#3619">EliteHacker</span>
+<span class="msg-date">21-Jun-18 11:44 PM</span>
+<div class="msg-content">
+you want to bet</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/93723291256111104/e9081379790878352340944445c3b709.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Rouing#1337">Rouing</span>
+<span class="msg-date">21-Jun-18 11:44 PM</span>
+<div class="msg-content">
+You are retarded</div>
+<div class="msg-content">
+Yes</div>
+<div class="msg-content">
+I do</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/214458662985531393/3e1eb5f5b4da0abf9c17b237a3b21048.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="EliteHacker#3619">EliteHacker</span>
+<span class="msg-date">21-Jun-18 11:44 PM</span>
+<div class="msg-content">
+you will see a whole lot happen very soon</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/93723291256111104/e9081379790878352340944445c3b709.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Rouing#1337">Rouing</span>
+<span class="msg-date">21-Jun-18 11:44 PM</span>
+<div class="msg-content">
+Ive literally had someone threaten my life</div>
+<div class="msg-content">
+and he got arrested</div>
+<div class="msg-content">
+because he violated parole</div>
+<div class="msg-content">
+You</div>
+<div class="msg-content">
+Are nobody</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/214458662985531393/3e1eb5f5b4da0abf9c17b237a3b21048.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="EliteHacker#3619">EliteHacker</span>
+<span class="msg-date">21-Jun-18 11:45 PM</span>
+<div class="msg-content">
+im not threatening though im just saying the facts as they are</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/93723291256111104/e9081379790878352340944445c3b709.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Rouing#1337">Rouing</span>
+<span class="msg-date">21-Jun-18 11:45 PM</span>
+<div class="msg-content">
+and this entire chat is going to dumped on summerhost website</div>
+<div class="msg-content">
+for everyone to laugh at</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/214458662985531393/3e1eb5f5b4da0abf9c17b237a3b21048.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="EliteHacker#3619">EliteHacker</span>
+<span class="msg-date">21-Jun-18 11:45 PM</span>
+<div class="msg-content">
+you can do that but that website is hacked so ye good look</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/93723291256111104/e9081379790878352340944445c3b709.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Rouing#1337">Rouing</span>
+<span class="msg-date">21-Jun-18 11:45 PM</span>
+<div class="msg-content">
+Oh really</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/214458662985531393/3e1eb5f5b4da0abf9c17b237a3b21048.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="EliteHacker#3619">EliteHacker</span>
+<span class="msg-date">21-Jun-18 11:45 PM</span>
+<div class="msg-content">
+yep</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/93723291256111104/e9081379790878352340944445c3b709.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Rouing#1337">Rouing</span>
+<span class="msg-date">21-Jun-18 11:45 PM</span>
+<div class="msg-content">
+let me redploy it</div>
+<div class="msg-attachment">
+<a href="https://cdn.discordapp.com/attachments/459573428739899412/459579761694474252/unknown.png">
+<img class="msg-attachment" src="https://cdn.discordapp.com/attachments/459573428739899412/459579761694474252/unknown.png" />
+</a>
+</div>
+<div class="msg-content">
+Done</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/214458662985531393/3e1eb5f5b4da0abf9c17b237a3b21048.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="EliteHacker#3619">EliteHacker</span>
+<span class="msg-date">21-Jun-18 11:45 PM</span>
+<div class="msg-content">
+you wont find any traces of me being there</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/93723291256111104/e9081379790878352340944445c3b709.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Rouing#1337">Rouing</span>
+<span class="msg-date">21-Jun-18 11:46 PM</span>
+<div class="msg-content">
+Kinda hard to hack something with no security holes</div>
+<div class="msg-content">
+or even data</div>
+<div class="msg-content">
+No SQL</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/214458662985531393/3e1eb5f5b4da0abf9c17b237a3b21048.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="EliteHacker#3619">EliteHacker</span>
+<span class="msg-date">21-Jun-18 11:46 PM</span>
+<div class="msg-content">
+you are an idiot on drugs</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/93723291256111104/e9081379790878352340944445c3b709.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Rouing#1337">Rouing</span>
+<span class="msg-date">21-Jun-18 11:46 PM</span>
+<div class="msg-content">
+No REDIS</div>
+<div class="msg-content">
+I cant be on drugs right now</div>
+<div class="msg-content">
+I am on Pre-Trial Monitor</div>
+<div class="msg-content">
+So yeah</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/214458662985531393/3e1eb5f5b4da0abf9c17b237a3b21048.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="EliteHacker#3619">EliteHacker</span>
+<span class="msg-date">21-Jun-18 11:46 PM</span>
+<div class="msg-content">
+there are loads of tools out there even the shadow brokers could do what i have done</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/93723291256111104/e9081379790878352340944445c3b709.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Rouing#1337">Rouing</span>
+<span class="msg-date">21-Jun-18 11:47 PM</span>
+<div class="msg-content">
+But</div>
+<div class="msg-content">
+You have done nothing</div>
+<div class="msg-content">
+O.o</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/214458662985531393/3e1eb5f5b4da0abf9c17b237a3b21048.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="EliteHacker#3619">EliteHacker</span>
+<span class="msg-date">21-Jun-18 11:47 PM</span>
+<div class="msg-content">
+you think that but the most obvious things seem so little</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/93723291256111104/e9081379790878352340944445c3b709.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Rouing#1337">Rouing</span>
+<span class="msg-date">21-Jun-18 11:47 PM</span>
+<div class="msg-content">
+You know who you are speaking to?</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/214458662985531393/3e1eb5f5b4da0abf9c17b237a3b21048.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="EliteHacker#3619">EliteHacker</span>
+<span class="msg-date">21-Jun-18 11:47 PM</span>
+<div class="msg-content">
+im speaking to an idiot</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/93723291256111104/e9081379790878352340944445c3b709.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Rouing#1337">Rouing</span>
+<span class="msg-date">21-Jun-18 11:48 PM</span>
+<div class="msg-content">
+Someone more certified in System Administration then you ever will be</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/214458662985531393/3e1eb5f5b4da0abf9c17b237a3b21048.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="EliteHacker#3619">EliteHacker</span>
+<span class="msg-date">21-Jun-18 11:48 PM</span>
+<div class="msg-content">
+stfu</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/93723291256111104/e9081379790878352340944445c3b709.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Rouing#1337">Rouing</span>
+<span class="msg-date">21-Jun-18 11:48 PM</span>
+<div class="msg-content">
+Literally</div>
+<div class="msg-content">
+Certified</div>
+<div class="msg-content">
+I have verification codes too</div>
+<div class="msg-content">
+And documents</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/214458662985531393/3e1eb5f5b4da0abf9c17b237a3b21048.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="EliteHacker#3619">EliteHacker</span>
+<span class="msg-date">21-Jun-18 11:48 PM</span>
+<div class="msg-content">
+i dont care if you are a level 1</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/93723291256111104/e9081379790878352340944445c3b709.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Rouing#1337">Rouing</span>
+<span class="msg-date">21-Jun-18 11:48 PM</span>
+<div class="msg-content">
+Actually</div>
+<div class="msg-content">
+I am not support</div>
+<div class="msg-content">
+I am a Senior Cloud Operations Engineer</div>
+<div class="msg-content">
+Working at Riversand Technologies</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/214458662985531393/3e1eb5f5b4da0abf9c17b237a3b21048.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="EliteHacker#3619">EliteHacker</span>
+<span class="msg-date">21-Jun-18 11:48 PM</span>
+<div class="msg-content">
+look at your fucking website you didnt configure that properly</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/93723291256111104/e9081379790878352340944445c3b709.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Rouing#1337">Rouing</span>
+<span class="msg-date">21-Jun-18 11:48 PM</span>
+<div class="msg-content">
+Nothing to configure...</div>
+<div class="msg-content">
+its GitLab pages</div>
+<div class="msg-content">
+Do you even know what that is?</div>
+<div class="msg-content">
+No you dont</div>
+<div class="msg-content">
+do you</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/214458662985531393/3e1eb5f5b4da0abf9c17b237a3b21048.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="EliteHacker#3619">EliteHacker</span>
+<span class="msg-date">21-Jun-18 11:49 PM</span>
+<div class="msg-content">
+you are fucking stupid, yes i know what gitlab is</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/93723291256111104/e9081379790878352340944445c3b709.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Rouing#1337">Rouing</span>
+<span class="msg-date">21-Jun-18 11:49 PM</span>
+<div class="msg-content">
+GITLAB &gt;&gt;&gt;&gt;PAGES&lt;&lt;&lt;&lt;</div>
+<div class="msg-content">
+Everyone knows what Gitlab Is</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/214458662985531393/3e1eb5f5b4da0abf9c17b237a3b21048.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="EliteHacker#3619">EliteHacker</span>
+<span class="msg-date">21-Jun-18 11:49 PM</span>
+<div class="msg-content">
+William you are stupid</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/93723291256111104/e9081379790878352340944445c3b709.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Rouing#1337">Rouing</span>
+<span class="msg-date">21-Jun-18 11:49 PM</span>
+<div class="msg-content">
+That is William Cody Ardoin the 7th</div>
+<div class="msg-content">
+to you</div>
+<div class="msg-content">
+sir</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/214458662985531393/3e1eb5f5b4da0abf9c17b237a3b21048.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="EliteHacker#3619">EliteHacker</span>
+<span class="msg-date">21-Jun-18 11:50 PM</span>
+<div class="msg-content">
+the 7th do i care your still a person who disobeys the law</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/93723291256111104/e9081379790878352340944445c3b709.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Rouing#1337">Rouing</span>
+<span class="msg-date">21-Jun-18 11:50 PM</span>
+<div class="msg-content">
+And you are a child</div>
+<div class="msg-content">
+So I take everything you say with a grain of salt</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/214458662985531393/3e1eb5f5b4da0abf9c17b237a3b21048.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="EliteHacker#3619">EliteHacker</span>
+<span class="msg-date">21-Jun-18 11:50 PM</span>
+<div class="msg-content">
+if im a child i have a fucking high iq to of hacked your shit</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/93723291256111104/e9081379790878352340944445c3b709.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Rouing#1337">Rouing</span>
+<span class="msg-date">21-Jun-18 11:50 PM</span>
+<div class="msg-content">
+IQ != Intelligence</div>
+<div class="msg-content">
+Its a Logical Systematic Quotient</div>
+<div class="msg-content">
+Holy fuck</div>
+<div class="msg-content">
+you are a child</div>
+<div class="msg-content">
+what</div>
+<div class="msg-content">
+a</div>
+<div class="msg-content">
+meme</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/214458662985531393/3e1eb5f5b4da0abf9c17b237a3b21048.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="EliteHacker#3619">EliteHacker</span>
+<span class="msg-date">21-Jun-18 11:51 PM</span>
+<div class="msg-content">
+no shit</div>
+<div class="msg-content">
+your a meme</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/93723291256111104/e9081379790878352340944445c3b709.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Rouing#1337">Rouing</span>
+<span class="msg-date">21-Jun-18 11:51 PM</span>
+<div class="msg-content">
+you&#39;re*</div>
+<div class="msg-content">
+Do you have a Degree?</div>
+<div class="msg-content">
+Qualifications?</div>
+<div class="msg-content">
+Certifications?</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/214458662985531393/3e1eb5f5b4da0abf9c17b237a3b21048.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="EliteHacker#3619">EliteHacker</span>
+<span class="msg-date">21-Jun-18 11:51 PM</span>
+<div class="msg-content">
+dont correct me bitch</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/93723291256111104/e9081379790878352340944445c3b709.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Rouing#1337">Rouing</span>
+<span class="msg-date">21-Jun-18 11:51 PM</span>
+<div class="msg-content">
+I do what I want<span class="msg-edited" title="21-Jun-18 11:51 PM">(edited)</span></div>
+<div class="msg-content">
+And there is nothing you can do about it</div>
+<div class="msg-content">
+Except complain</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/214458662985531393/3e1eb5f5b4da0abf9c17b237a3b21048.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="EliteHacker#3619">EliteHacker</span>
+<span class="msg-date">21-Jun-18 11:52 PM</span>
+<div class="msg-content">
+not when we show the world who you truly are</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/93723291256111104/e9081379790878352340944445c3b709.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Rouing#1337">Rouing</span>
+<span class="msg-date">21-Jun-18 11:52 PM</span>
+<div class="msg-content">
+Cool</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/214458662985531393/3e1eb5f5b4da0abf9c17b237a3b21048.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="EliteHacker#3619">EliteHacker</span>
+<span class="msg-date">21-Jun-18 11:52 PM</span>
+<div class="msg-content">
+they will see how much of a cunt you are</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/93723291256111104/e9081379790878352340944445c3b709.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Rouing#1337">Rouing</span>
+<span class="msg-date">21-Jun-18 11:52 PM</span>
+<div class="msg-content">
+I already tell people I am an; Asswipe, Dick Head, I smoke Weed</div>
+<div class="msg-content">
+I dont give a shit because I have tons of money</div>
+<div class="msg-content">
+and I am the most pretentious person you will ever meet.</div>
+<div class="msg-content">
+What</div>
+<div class="msg-content">
+is</div>
+<div class="msg-content">
+your</div>
+<div class="msg-content">
+point</div>
+<div class="msg-content">
+What is your end game?</div>
+<div class="msg-content">
+What do you want from me?</div>
+<div class="msg-content">
+To Cry?</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/214458662985531393/3e1eb5f5b4da0abf9c17b237a3b21048.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="EliteHacker#3619">EliteHacker</span>
+<span class="msg-date">21-Jun-18 11:53 PM</span>
+<div class="msg-content">
+i still have loads of people on your server and the worse person i ever met is called satan and you will never meet his standard of arrogance</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/93723291256111104/e9081379790878352340944445c3b709.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Rouing#1337">Rouing</span>
+<span class="msg-date">21-Jun-18 11:53 PM</span>
+<div class="msg-content">
+&quot;Ohhh no a kid has my Name and Phone Number&quot;</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/214458662985531393/3e1eb5f5b4da0abf9c17b237a3b21048.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="EliteHacker#3619">EliteHacker</span>
+<span class="msg-date">21-Jun-18 11:53 PM</span>
+<div class="msg-content">
+shut up</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/93723291256111104/e9081379790878352340944445c3b709.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Rouing#1337">Rouing</span>
+<span class="msg-date">21-Jun-18 11:53 PM</span>
+<div class="msg-content">
+Oh by the way</div>
+<div class="msg-content">
+here is a list of my certifications</div>
+<div class="msg-content">
+<div class="pre">CCIE<br />CompTIA A+<br />CompTIA Cloud+<br />CompTIA Security+<br />CompTIA Server+<br />CompTIA Network+<br />CompTIA Cybersecurity Analyst (CSA+)<br />CompTIA Mobility+<br />CompTIA Linux+<br />Microsoft Technology Associate (MTA)<br />Microsoft Certified Solutions Expert: Data Managment and Analytics<br />Microsoft Office Specialist (MOS)<br />IBM Certified Database Administrator - DB2<br />SAP S4HANA Certified<br />ITIL Expert<br />CRISC (ISACA)<br />RHIT (AHIMA) [Healthcare]<br />dCAP Certified (with Asterisk)<br />MongoDB Certified DBA<br />SAS Certified Data Scientist<br />ACMT<br />Oracle Business Intelligence Certified<br />Red Hat Certified Architect<br />Oracle Linux OCA<br /></div></div>
+<div class="msg-content">
+<div class="pre">EL03JDJNL3Q11K95<br />9BDNW8FEHKEE2R0V<br />HQS476QPKGBQC76T<br />DB78LLGMFDEQS9VT<br />8Q4TT7X3PCBE53PY<br /></div></div>
+<div class="msg-content">
+Verify at: <a href="http://verify.comptia.org">http://verify.comptia.org</a></div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/214458662985531393/3e1eb5f5b4da0abf9c17b237a3b21048.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="EliteHacker#3619">EliteHacker</span>
+<span class="msg-date">21-Jun-18 11:54 PM</span>
+<div class="msg-content">
+lol thats hardly anything to what my team have</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/93723291256111104/e9081379790878352340944445c3b709.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Rouing#1337">Rouing</span>
+<span class="msg-date">21-Jun-18 11:54 PM</span>
+<div class="msg-content">
+Dude</div>
+<div class="msg-content">
+thats literally almost all of them</div>
+<div class="msg-content">
+I am EOA</div>
+<div class="msg-content">
+End of Accreditation</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/214458662985531393/3e1eb5f5b4da0abf9c17b237a3b21048.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="EliteHacker#3619">EliteHacker</span>
+<span class="msg-date">21-Jun-18 11:54 PM</span>
+<div class="msg-content">
+lol</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/93723291256111104/e9081379790878352340944445c3b709.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Rouing#1337">Rouing</span>
+<span class="msg-date">21-Jun-18 11:54 PM</span>
+<div class="msg-content">
+The fact you dont know that from looking at that</div>
+<div class="msg-content">
+means you have nothing</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/214458662985531393/3e1eb5f5b4da0abf9c17b237a3b21048.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="EliteHacker#3619">EliteHacker</span>
+<span class="msg-date">21-Jun-18 11:54 PM</span>
+<div class="msg-content">
+i have a lot bitch</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/93723291256111104/e9081379790878352340944445c3b709.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Rouing#1337">Rouing</span>
+<span class="msg-date">21-Jun-18 11:55 PM</span>
+<div class="msg-content">
+Verification Codes please</div>
+<div class="msg-content">
+HQS476QPKGBQC76T</div>
+<div class="msg-attachment">
+<a href="https://cdn.discordapp.com/attachments/459573428739899412/459582144453410816/unknown.png">
+<img class="msg-attachment" src="https://cdn.discordapp.com/attachments/459573428739899412/459582144453410816/unknown.png" />
+</a>
+</div>
+<div class="msg-content">
+The fact is</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/214458662985531393/3e1eb5f5b4da0abf9c17b237a3b21048.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="EliteHacker#3619">EliteHacker</span>
+<span class="msg-date">21-Jun-18 11:55 PM</span>
+<div class="msg-content">
+i am not giving you anything you can find info on me with......</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/93723291256111104/e9081379790878352340944445c3b709.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Rouing#1337">Rouing</span>
+<span class="msg-date">21-Jun-18 11:55 PM</span>
+<div class="msg-content">
+Uh huh</div>
+<div class="msg-content">
+Because you have nothing</div>
+<div class="msg-content">
+Semitics wont work here with me.</div>
+<div class="msg-content">
+I know its an excuse</div>
+<div class="msg-content">
+you know its an excuse</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/214458662985531393/3e1eb5f5b4da0abf9c17b237a3b21048.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="EliteHacker#3619">EliteHacker</span>
+<span class="msg-date">21-Jun-18 11:55 PM</span>
+<div class="msg-content">
+i only give trusted people my info</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/93723291256111104/e9081379790878352340944445c3b709.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Rouing#1337">Rouing</span>
+<span class="msg-date">21-Jun-18 11:56 PM</span>
+<div class="msg-content">
+you know I know its an excuse</div>
+<div class="msg-content">
+You know I know you have nothing</div>
+<div class="msg-content">
+You can play psychological games with me all you want</div>
+<div class="msg-content">
+Im just gonna ignore your bullshit</div>
+<div class="msg-content">
+I know you are no body</div>
+<div class="msg-content">
+I know you a child sitting behind a screen</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/214458662985531393/3e1eb5f5b4da0abf9c17b237a3b21048.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="EliteHacker#3619">EliteHacker</span>
+<span class="msg-date">21-Jun-18 11:56 PM</span>
+<div class="msg-content">
+im watching you</div>
+<div class="msg-attachment">
+<a href="https://cdn.discordapp.com/attachments/459573428739899412/459582460657664010/unknown.png">
+<img class="msg-attachment" src="https://cdn.discordapp.com/attachments/459573428739899412/459582460657664010/unknown.png" />
+</a>
+</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/93723291256111104/e9081379790878352340944445c3b709.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Rouing#1337">Rouing</span>
+<span class="msg-date">21-Jun-18 11:56 PM</span>
+<div class="msg-content">
+Congrats you found a pic from my Mothers Facebook</div>
+<div class="msg-content">
+You can use Google</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/214458662985531393/3e1eb5f5b4da0abf9c17b237a3b21048.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="EliteHacker#3619">EliteHacker</span>
+<span class="msg-date">21-Jun-18 11:57 PM</span>
+<div class="msg-content">
+no shit</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/93723291256111104/e9081379790878352340944445c3b709.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Rouing#1337">Rouing</span>
+<span class="msg-date">21-Jun-18 11:57 PM</span>
+<div class="msg-content">
+Whoop te do</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/214458662985531393/3e1eb5f5b4da0abf9c17b237a3b21048.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="EliteHacker#3619">EliteHacker</span>
+<span class="msg-date">21-Jun-18 11:57 PM</span>
+<div class="msg-content">
+but how would i know where to look huh</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/93723291256111104/e9081379790878352340944445c3b709.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Rouing#1337">Rouing</span>
+<span class="msg-date">21-Jun-18 11:57 PM</span>
+<div class="msg-content">
+My github has my name on it..</div>
+<div class="msg-content">
+Full Name</div>
+<div class="msg-content">
+and the user is Rouing...</div>
+<div class="msg-content">
+<i>DURRRRRRRRRRRRRRRRR</i></div>
+<div class="msg-content">
+No one else on the internet is &quot;Rouing&quot;</div>
+<div class="msg-content">
+My tech footprint is huge</div>
+<div class="msg-content">
+this isnt hard</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/214458662985531393/3e1eb5f5b4da0abf9c17b237a3b21048.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="EliteHacker#3619">EliteHacker</span>
+<span class="msg-date">21-Jun-18 11:58 PM</span>
+<div class="msg-content">
+what happens if i looked somewhere else to get your full name instead of github?</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/93723291256111104/e9081379790878352340944445c3b709.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Rouing#1337">Rouing</span>
+<span class="msg-date">21-Jun-18 11:58 PM</span>
+<div class="msg-content">
+Uhh then you are retarded</div>
+<div class="msg-content">
+and couldve saved yourself the trouble</div>
+<div class="msg-content">
+Or you couldve asked</div>
+<div class="msg-content">
+I can give you my Address</div>
+<div class="msg-content">
+and Phone number</div>
+<div class="msg-content">
+if you want</div>
+<div class="msg-content">
+Want it?</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/214458662985531393/3e1eb5f5b4da0abf9c17b237a3b21048.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="EliteHacker#3619">EliteHacker</span>
+<span class="msg-date">21-Jun-18 11:59 PM</span>
+<div class="msg-content">
+lol did save myself the trouble as i have an informant who gave me the basic info</div>
+<div class="msg-content">
+i have your address already</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/93723291256111104/e9081379790878352340944445c3b709.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Rouing#1337">Rouing</span>
+<span class="msg-date">21-Jun-18 11:59 PM</span>
+<div class="msg-content">
+wahhhhhhhhhhhh a little kid has my info</div>
+<div class="msg-attachment">
+<a href="https://cdn.discordapp.com/attachments/459573428739899412/459583262503862272/Picture_1.jpg">
+<img class="msg-attachment" src="https://cdn.discordapp.com/attachments/459573428739899412/459583262503862272/Picture_1.jpg" />
+</a>
+</div>
+<div class="msg-content">
+whatever will I do</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/93723291256111104/e9081379790878352340944445c3b709.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Rouing#1337">Rouing</span>
+<span class="msg-date">22-Jun-18 12:00 AM</span>
+<div class="msg-content">
+Yes that is Me</div>
+<div class="msg-content">
+Crying</div>
+<div class="msg-content">
+Because you have my info<span class="msg-edited" title="22-Jun-18 12:00 AM">(edited)</span></div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/214458662985531393/3e1eb5f5b4da0abf9c17b237a3b21048.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="EliteHacker#3619">EliteHacker</span>
+<span class="msg-date">22-Jun-18 12:00 AM</span>
+<div class="msg-content">
+we have your info also we could manipulate what we say to the news as we have so much info</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/93723291256111104/e9081379790878352340944445c3b709.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Rouing#1337">Rouing</span>
+<span class="msg-date">22-Jun-18 12:00 AM</span>
+<div class="msg-content">
+uh huh</div>
+<div class="msg-content">
+Because a reporter would waste their time</div>
+<div class="msg-content">
+<img class="emoji" title=":thinkW:" src="https://cdn.discordapp.com/emojis/356567093694693386.png" /></div>
+<div class="msg-content">
+Unless you plan on committing Slander and Libel</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/214458662985531393/3e1eb5f5b4da0abf9c17b237a3b21048.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="EliteHacker#3619">EliteHacker</span>
+<span class="msg-date">22-Jun-18 12:01 AM</span>
+<div class="msg-content">
+a well represented article sent to them oh there going to look at it if it was sent by multiple people</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/93723291256111104/e9081379790878352340944445c3b709.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Rouing#1337">Rouing</span>
+<span class="msg-date">22-Jun-18 12:01 AM</span>
+<div class="msg-content">
+ok</div>
+<div class="msg-content">
+I KNOW you are either a Troll or and Idiot at this point</div>
+<div class="msg-content">
+Im hoping it is the former and not the latter</div>
+<div class="msg-content">
+Where is your parents?</div>
+<div class="msg-content">
+Why did they give you a computer?</div>
+<div class="msg-attachment">
+<a href="https://cdn.discordapp.com/attachments/459573428739899412/459583943164035072/JPEG_20180606_210411.jpg">
+<img class="msg-attachment" src="https://cdn.discordapp.com/attachments/459573428739899412/459583943164035072/JPEG_20180606_210411.jpg" />
+</a>
+</div>
+<div class="msg-content">
+See that</div>
+<div class="msg-content">
+Thats a stack of my certs</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/214458662985531393/3e1eb5f5b4da0abf9c17b237a3b21048.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="EliteHacker#3619">EliteHacker</span>
+<span class="msg-date">22-Jun-18 12:02 AM</span>
+<div class="msg-content">
+they gave me a computer because i knew how to change things in the cyber world</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/93723291256111104/e9081379790878352340944445c3b709.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Rouing#1337">Rouing</span>
+<span class="msg-date">22-Jun-18 12:02 AM</span>
+<div class="msg-content">
+I am way out of your league</div>
+<div class="msg-content">
+You are an idiot</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/214458662985531393/3e1eb5f5b4da0abf9c17b237a3b21048.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="EliteHacker#3619">EliteHacker</span>
+<span class="msg-date">22-Jun-18 12:02 AM</span>
+<div class="msg-content">
+that is half the stack i have</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/93723291256111104/e9081379790878352340944445c3b709.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Rouing#1337">Rouing</span>
+<span class="msg-date">22-Jun-18 12:02 AM</span>
+<div class="msg-content">
+and this conversation is over</div>
+</div>
+</div>
+</div>
+</body>
+</html>
